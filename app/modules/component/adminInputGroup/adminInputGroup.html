@@ -1,0 +1,14 @@
+<div class="form-group row">
+    <label class="col-sm-3 control-label" >{{inputTitle}}</label>
+    <div class="col-sm-9" ng-show="inputType == 'number'">
+        <input class="form-control"
+               type="text"
+               ng-model="inputModel"
+               format="number">
+    </div>
+    <div class="col-sm-9" ng-show="inputType != 'number'">
+        <input class="form-control"
+               type="{{inputType}}"
+               ng-model="inputModel">
+    </div>
+</div>

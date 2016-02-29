@@ -1,0 +1,9 @@
+<div class="form-group row">
+    <label class="col-sm-3 control-label" >{{selectTitle}}</label>
+    <div class="col-sm-9">
+        <select
+            ng-options = "item.value as item.name for item in selectOptions"
+            ng-model = "selectModel">
+        </select>
+    </div>
+</div>

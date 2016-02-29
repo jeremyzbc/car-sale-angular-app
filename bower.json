@@ -1,0 +1,26 @@
+{
+  "name": "mcwadmin",
+  "private": true,
+  "devDependencies": {
+    "angular": "1.4.3",
+    "angular-bootstrap": "~0.13.0",
+    "angular-sanitize": "~1.4.6",
+    "angular-ui-grid": "~3.0.1",
+    "angular-ui-router": "~0.2.15",
+    "angular-ui-tree": "~2.6.0",
+    "angular-xeditable": "~0.1.9",
+    "angular-zeroclipboard": "~0.6.0",
+    "angular-local-storage": "~0.2.2",
+    "bootstrap": "~3.3.5",
+    "fontawesome": "~4.3.0",
+    "holderjs": "~2.8.0",
+    "pdfmake": "~0.1.18",
+    "restangular": "~1.5.1",
+    "textAngular": "~1.4.6",
+    "crypto-js": "~3.1.5"
+  },
+  "dependencies": {
+    "angular-confirm-modal": "~1.1.2",
+    "leancloud-javascript-sdk": "~0.6.4"
+  }
+}

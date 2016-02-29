@@ -1,0 +1,23 @@
+@charset "utf-8";
+@import (reference) "../../../styles/common";
+.main-content{
+    background-color: fade(@theme-bg-color, 20%);
+    display: flex;
+    flex-flow: row wrap;
+    align-content:flex-start;
+    align-items:stretch;
+    min-height: 100%;
+}
+.app-header{
+    flex: 2 100%;
+    height: 50px;
+}
+.app-sider{
+    background-color: fade(@theme-bg-color, 20%) !important;
+    flex: 0 1 @aside-width;
+    align-self:stretch;
+}
+.app-content{
+    flex: 1 1 auto;
+    align-self:stretch;
+}
